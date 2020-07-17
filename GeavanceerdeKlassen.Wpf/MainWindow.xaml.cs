@@ -32,6 +32,7 @@ namespace GeavanceerdeKlassen.Wpf
             nieuweAuto.AantalDeuren = 4;
             nieuweAuto.HeeftEenMotor = true;
             nieuweAuto.Merk = "Audi";
+            lblDetails.Content = nieuweAuto.ToonDetails();
         }
 
         private void BtnToonFiets_Click(object sender, RoutedEventArgs e)
