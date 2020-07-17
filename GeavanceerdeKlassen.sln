@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeavanceerdeKlassen.Wpf", "GeavanceerdeKlassen.Wpf\GeavanceerdeKlassen.Wpf.csproj", "{AFBDAFF7-EE72-407E-84DF-2D807DBB86D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeavanceerdeKlassen.Lib", "GeavanceerdeKlassen.Lib\GeavanceerdeKlassen.Lib.csproj", "{B0A462B6-22F6-4C8F-964F-73E4F90DBDF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AFBDAFF7-EE72-407E-84DF-2D807DBB86D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFBDAFF7-EE72-407E-84DF-2D807DBB86D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFBDAFF7-EE72-407E-84DF-2D807DBB86D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A462B6-22F6-4C8F-964F-73E4F90DBDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A462B6-22F6-4C8F-964F-73E4F90DBDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A462B6-22F6-4C8F-964F-73E4F90DBDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A462B6-22F6-4C8F-964F-73E4F90DBDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
