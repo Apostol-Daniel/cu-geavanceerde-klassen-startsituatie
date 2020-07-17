@@ -96,6 +96,17 @@ namespace GeavanceerdeKlassen.Wpf
             foreach (Voertuig voertuig in vervorsmiddelen)
             {
                 lblDetails.Content += voertuig.ToonDetails() + Environment.NewLine;
+
+                //if(voertuig is Fiets)
+                //{
+                //    Fiets fiets = (Fiets)voertuig;
+                //    fiets.ToonDetails();
+                //}
+                //if(voertuig is Auto)
+                //{
+                //    Auto auto = (Auto)voertuig;
+                //    auto.ToonDetails();
+                //}
             }
 
         }
