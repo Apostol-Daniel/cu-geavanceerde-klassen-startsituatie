@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace GeavanceerdeKlassen.Wpf
 {
+    // adding the abstract keyword here makes it so that no instances or objects can be created using this class
+    // it is used when you want to use it to inherit but to prevent making objects off of
     public class Voertuig
     {
         protected int aantalWielen = 4;
