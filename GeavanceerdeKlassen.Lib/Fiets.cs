@@ -16,5 +16,11 @@ namespace GeavanceerdeKlassen.Lib
             get { return heeftSpatborden; }
             set { heeftSpatborden = value; }
         }
+
+        public override string ToonDetails()
+        {
+            string welOfGeenMotor = heeftEenMotor ? "een" : "geen";
+            return $"Deze fiets heeft {welOfGeenMotor} motor, heeft {aantalWielen} wielen en is van het merk {merk}";
+        }
     }
 }
