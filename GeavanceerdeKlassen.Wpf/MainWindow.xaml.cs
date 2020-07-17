@@ -41,6 +41,7 @@ namespace GeavanceerdeKlassen.Wpf
             nieuweFiets.HeeftSpatboorden = true;
             nieuweFiets.HeeftEenMotor = false;
             nieuweFiets.Merk = "Cube";
+            lblDetails.Content = nieuweFiets.ToonDetails();
         }
 
         private void btnToonVoertuig_Click(object sender, RoutedEventArgs e)
