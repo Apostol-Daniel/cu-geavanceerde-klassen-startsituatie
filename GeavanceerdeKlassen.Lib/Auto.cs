@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeavanceerdeKlassen.Wpf
 {
-    class Auto : Voertuig
+    public class Auto : Voertuig
     {
         private int aantalDeuren;
 

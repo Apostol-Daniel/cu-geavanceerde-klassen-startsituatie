@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeavanceerdeKlassen.Wpf
 {
-    class Voertuig
+    public class Voertuig
     {
         private bool heeftEenMotor;
         private string merk;
