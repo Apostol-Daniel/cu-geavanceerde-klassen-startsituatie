@@ -11,6 +11,11 @@ namespace GeavanceerdeKlassen.Lib
     {
         private bool heeftSpatborden;
 
+        public Fiets()
+        {
+            aantalWielen = 2;
+        }
+
         public bool HeeftSpatboorden 
         {
             get { return heeftSpatborden; }
