@@ -50,8 +50,8 @@ namespace GeavanceerdeKlassen.Wpf
             {
                 HeeftEenMotor = true,
                 Merk = "boeing"
-
             };
+            lblDetails.Content = nieuweVoertuig.ToonDetails();
         }
 
         private void btnMaakVervoersmiddelen_Click(object sender, RoutedEventArgs e)
