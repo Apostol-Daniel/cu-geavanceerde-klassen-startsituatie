@@ -8,5 +8,9 @@ namespace GeavanceerdeKlassen.Lib
 {
     class Persoon
     {
+        public Persoon(string naam)
+        {
+
+        }
     }
 }
