@@ -8,7 +8,7 @@ namespace GeavanceerdeKlassen.Wpf
 {
     public class Voertuig
     {
-        private int aantalWielen = 4;
+        protected int aantalWielen = 4;
 
         private bool heeftEenMotor;
         private string merk;
