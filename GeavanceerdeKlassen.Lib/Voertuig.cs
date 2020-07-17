@@ -10,8 +10,8 @@ namespace GeavanceerdeKlassen.Wpf
     {
         protected int aantalWielen = 4;
 
-        private bool heeftEenMotor;
-        private string merk;
+        protected bool heeftEenMotor;
+        protected string merk;
 
         public bool HeeftEenMotor
         {
