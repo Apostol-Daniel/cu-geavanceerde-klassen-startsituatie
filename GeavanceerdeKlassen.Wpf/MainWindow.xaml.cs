@@ -45,6 +45,12 @@ namespace GeavanceerdeKlassen.Wpf
 
         private void btnToonVoertuig_Click(object sender, RoutedEventArgs e)
         {
+            Voertuig nieuweVoertuig = new Voertuig
+            {
+                HeeftEenMotor = true,
+                Merk = "boeing"
+
+            };
         }
 
         private void btnMaakVervoersmiddelen_Click(object sender, RoutedEventArgs e)
