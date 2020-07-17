@@ -56,6 +56,48 @@ namespace GeavanceerdeKlassen.Wpf
 
         private void btnMaakVervoersmiddelen_Click(object sender, RoutedEventArgs e)
         {
+            Fiets fiets1 = new Fiets
+            {
+                HeeftEenMotor = true,
+                HeeftSpatboorden = true,
+                Merk = "Granville"
+            };
+
+            Fiets fiets2 = new Fiets
+            {
+                HeeftEenMotor = false,
+                HeeftSpatboorden = false,
+                Merk = "Specialized"
+            };
+
+            Auto auto1 = new Auto
+            {
+                AantalDeuren = 3,
+                HeeftEenMotor = true,
+                Merk = "Audi"
+            };
+
+            Auto auto2 = new Auto
+            {
+                AantalDeuren = 4,
+                HeeftEenMotor = true,
+                Merk = "Mercedes"
+            };
+
+            List<Voertuig> vervorsmiddelen = new List<Voertuig>();
+
+            vervorsmiddelen.Add(fiets1);
+            vervorsmiddelen.Add(fiets2);
+            vervorsmiddelen.Add(auto1);
+            vervorsmiddelen.Add(auto2);
+
+            lblDetails.Content = "";
+
+            foreach (Voertuig voertuig in vervorsmiddelen)
+            {
+                lblDetails.Content += voertuig.ToonDetails() + Environment.NewLine;
+            }
+
         }
     }
 }
