@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeavanceerdeKlassen.Lib\GeavanceerdeKlassen.Lib.csproj">
+      <Project>{b0a462b6-22f6-4c8f-964f-73e4f90dbdf3}</Project>
+      <Name>GeavanceerdeKlassen.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

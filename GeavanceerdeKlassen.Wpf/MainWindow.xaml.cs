@@ -27,6 +27,10 @@ namespace GeavanceerdeKlassen.Wpf
 
         private void BtnToonAuto_Click(object sender, RoutedEventArgs e)
         {
+            Auto nieuweAuto = new Auto();
+            nieuweAuto.AantalDeuren = 4;
+            nieuweAuto.HeeftEenMotor = true;
+            nieuweAuto.Merk = "Audi";
         }
 
         private void BtnToonFiets_Click(object sender, RoutedEventArgs e)
