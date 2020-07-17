@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GeavanceerdeKlassen.Lib
 {
-    class Student
+    class Student :Persoon
     {
-        public Student(string naam, List<string> modules)
+        public Student(string naam, List<string> modules) : base(naam)
         {
 
         }
