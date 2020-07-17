@@ -16,7 +16,7 @@ namespace GeavanceerdeKlassen.Wpf
             set { aantalDeuren = value; }
         }
 
-        public string ToonDetails()
+        public override string ToonDetails()
         {
             return $"Deze auto heeft {aantalDeuren} deuren en {aantalWielen} wielen";
         }
