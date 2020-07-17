@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GeavanceerdeKlassen.Lib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,6 +36,10 @@ namespace GeavanceerdeKlassen.Wpf
 
         private void BtnToonFiets_Click(object sender, RoutedEventArgs e)
         {
+            Fiets nieuweFiets = new Fiets();
+            nieuweFiets.HeeftSpatboorden = true;
+            nieuweFiets.HeeftEenMotor = false;
+            nieuweFiets.Merk = "Cube";
         }
 
         private void btnToonVoertuig_Click(object sender, RoutedEventArgs e)
