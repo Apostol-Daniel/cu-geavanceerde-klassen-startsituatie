@@ -8,5 +8,9 @@ namespace GeavanceerdeKlassen.Lib
 {
     class Student
     {
+        public Student(string naam, List<string> modules)
+        {
+
+        }
     }
 }
