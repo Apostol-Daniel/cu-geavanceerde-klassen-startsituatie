@@ -24,5 +24,11 @@ namespace GeavanceerdeKlassen.Wpf
             get { return merk; }
             set { merk = value; }
         }
+
+        public virtual string ToonDetails()
+        {
+            string welOfGeenMotor = heeftEenMotor ? "een" : "geen";
+            return $"Dit voertuig heeft {welOfGeenMotor} motorn en is van het merk {merk}";
+        }
     }
 }
